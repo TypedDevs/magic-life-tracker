@@ -1,7 +1,6 @@
 import { test, expect } from 'vitest'
-
 import { render } from '@testing-library/vue'
-import App from '@/App.vue'
+import App from '../src/App.vue'
 
 test('displays the default life tracker for two players', () => {
   const { getAllByText } = render(App)
