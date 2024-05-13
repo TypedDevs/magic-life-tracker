@@ -12,3 +12,8 @@ test('displays the decrease live buttons', () => {
   const { getAllByText } = render(App)
   expect(getAllByText('-').length).toBe(2)
 })
+
+test('displays the increase live buttons', () => {
+  const { getAllByText } = render(App)
+  expect(getAllByText('+').length).toBe(2)
+})

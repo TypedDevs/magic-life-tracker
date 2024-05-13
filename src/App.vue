@@ -5,10 +5,12 @@
     <section>
       <button>-</button>
       20
+      <button>+</button>
     </section>
     <section>
       <button>-</button>
       20
+      <button>+</button>
     </section>
   </main>
 </template>
