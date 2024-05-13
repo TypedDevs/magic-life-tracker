@@ -2,8 +2,14 @@
 
 <template>
   <main>
-    <div>20</div>
-    <div>20</div>
+    <section>
+      <button>-</button>
+      20
+    </section>
+    <section>
+      <button>-</button>
+      20
+    </section>
   </main>
 </template>
 

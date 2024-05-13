@@ -7,3 +7,8 @@ test('displays the default lives of two players', () => {
   const { getAllByText } = render(App)
   expect(getAllByText('20').length).toBe(2)
 })
+
+test('displays the decrease live buttons', () => {
+  const { getAllByText } = render(App)
+  expect(getAllByText('-').length).toBe(2)
+})
