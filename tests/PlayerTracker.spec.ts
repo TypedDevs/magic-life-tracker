@@ -12,3 +12,13 @@ test('increases the player lives when use clicks the increase button', async () 
 
   expect(getByText('21'))
 })
+
+test('decreases the player lives when use clicks the increase button', async () => {
+  const { getByText } = render(PlayerTracker)
+
+  expect(getByText('20'))
+
+  await userEvent.click(getByText('-'))
+
+  expect(getByText('19'))
+})

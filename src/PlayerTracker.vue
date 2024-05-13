@@ -1,6 +1,6 @@
 <template>
   <section>
-    <button>-</button>
+    <button @click="lives--">-</button>
     {{ lives }}
     <button @click="lives++">+</button>
   </section>
